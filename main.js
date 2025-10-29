@@ -25,7 +25,7 @@ while (eleccion !== "salir") {
     if (!encontrado) {
         alert("Producto no encontrado");
     }
-    
+
     eleccion = prompt("Ingresa el producto que queres comprar o 'salir' para terminar");
 }
 function calcularTotal (carrito) {
@@ -36,7 +36,7 @@ function calcularTotal (carrito) {
         };
 
       if(total >=20000){
-      total*=0.9;};
+      total*=0.9;}; //Aplica un descuento del 10%
 
       return (total);
  }
